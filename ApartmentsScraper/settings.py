@@ -18,7 +18,7 @@ NEWSPIDER_MODULE = 'ApartmentsScraper.spiders'
 
 #Export as Json Feed
 FEEDS = {
-    'apartment.json': {'format': 'json'}
+    'apartment.json': {'format': 'json', 'overwrite': True}
 }
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
