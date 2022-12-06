@@ -46,7 +46,7 @@ At the beginning of this project. I started up scrapy with the built-in command:
 scrapy startproject <projectname>
 ```
 
-and after countless of researches of videos and resources, I finally got myself familiarize with scrapy. (You can see this code in `Convert-scrapy-...` branch)
+and after countless of researching videos and resources, I finally got myself familiarize with scrapy. (You can see this code in `Convert-scrapy-...` branch)
 
 The next problem I encountered was not knowing what css selector to use that returns the data I wanted, took me at least few hours to try-and-error.</p>
 
