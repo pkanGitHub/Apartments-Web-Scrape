@@ -61,7 +61,7 @@ and what if I want to make the web scraping more dynamic? Like allow the user to
 
 I then start to look for a way to use `scrapy` that is capable to run in a simple command line such as `python main.py`. It was a long process for me to find the right keyword on google search...
 
-Okay now, I started over with the very first version of `scrapy project` I made, started up without using `items.py` in `main.py` file... and soon realized, if there is no data for that specific apartment name, then it'll print `null` for those fields, which looks really messy.
+Okay now, I started over with the very first version of `scrapy project` I made, started up without using `items.py` in `apartmentspider.py` file... and soon realized, if there is no data for that specific apartment name, then it'll print `null` for those fields, which looks really messy.
 
 Therefore, I put back the functionality from `items.py`.
 
