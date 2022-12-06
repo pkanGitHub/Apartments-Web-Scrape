@@ -61,18 +61,19 @@ and what if I want to make the web scraping more dynamic? Like allow the user to
 
 I then start to look for a way to use `scrapy` that is capable to run in a simple command line such as `python main.py`. It was a long process for me to find the right keyword on google search...
 
-Okay now, I started over with the very first version of `scrapy project` I made, started up without using `items.py`, in the `main.py` file... and soon realized, if there is no data for that specific apartment name, then it'll print `null` for that field, which looks really messy.
+Okay now, I started over with the very first version of `scrapy project` I made, started up without using `items.py` in `main.py` file... and soon realized, if there is no data for that specific apartment name, then it'll print `null` for those fields, which looks really messy.
 
-Therefore, I put back the functionality in `items.py`.
+Therefore, I put back the functionality from `items.py`.
 
-After all those mess converting scrapy project to a single script, now my problem is, how do I make my `start_url` dynamic? I then found `start_request` and was what I ended up using. Something similar to the example in the link I provided in below Resource section.
+After all those mess converting scrapy project to a single script, now my problem is, how do I make my `start_url` dynamic? I then found `start_request`method and was what I ended up using. <br/>
+Something similar to the example in the link I provided in below Resources section.
 
 ```python
 def start_requests(self):
     yield scrapy.Request(f'http://www.example.com/categories/{self.category}')
 ```
 
-<h3>Over all, it was a fun project to make, and I was glad I chose to use scrapy afterall</h3>
+<h3>Over all, it was a fun project to make, and I was glad I chose to use scrapy afterall, and was happy with my results.</h3>
 (yes, I did spent few more hours and tried out another scraping module before this, but we'll not go there)
 
 <br/>
