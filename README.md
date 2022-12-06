@@ -6,8 +6,6 @@ This is a python program that was build to get apartments information like `name
 
 ## :hammer_and_wrench: Setting Up:
 
----
-
 Windows:
 
 ```
@@ -23,8 +21,6 @@ pip3 install colorama
 ```
 
 ## To run the application:
-
----
 
 In the root directory of the project, run `main.py` file.
 <br/>
@@ -43,8 +39,6 @@ due to the [css selectors](https://www.w3schools.com/cssref/css_selectors.php) u
 <br/>
 
 ## Resources used to build this app
-
----
 
 - Scrapy:</br>
   https://scrapy.org/
